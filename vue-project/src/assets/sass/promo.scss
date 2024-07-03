@@ -1,0 +1,121 @@
+/*Промо*/
+
+.promo{
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    &__info{
+        @media screen and (max-width: 1200px){
+            text-align: center;
+        }
+        &-title{
+            font-weight: var(--weight_titles);
+            font-size: var(--title_super);
+            font-family: var(--font_bold);
+            margin-top: 50px;
+            @media screen and (max-width: 992px){
+                margin-top: 0;
+            }
+
+            @media screen and (max-width: 576px){
+                font-size: var(--title_super-mobile);
+                text-align: left;
+            }
+        }
+
+        &-description{
+            font-family: var(--font_regular);
+            font-weight: var(--weight_text);
+            font-size: var(--text_main);
+            color: var(--gray);
+            margin-top: 16px;
+            max-width: 300px;
+            margin-bottom: 20px;
+            @media screen and (max-width: 1200px){
+                max-width: 100%;
+            }
+            @media screen and (max-width: 576px){
+                font-size: var(--text_main-mobile);
+                text-align: left;
+            }
+        }
+
+        &-buttons{
+            display: flex;
+            @media screen and (max-width: 576px){
+                display: block;
+            }
+            gap: 20px;
+            font-weight: var(--weight_text);
+            font-size: var(--text_small);
+            font-family: var(--font_regular);
+            @media screen and (max-width: 1200px){
+                justify-content: center;
+            }
+
+            &-start{
+                background-color: var(--main);
+                border: 0px;
+                color: var(--light);
+                width: 180px;
+                @media screen and (max-width: 576px){
+                    width: 100%;
+                    margin-bottom: 8px;
+                }
+                height: 50px;
+                border-radius: 10px;
+                transition: box-shadow 300ms, transform 100ms;
+
+                &:hover{
+                    box-shadow: var(--shadow_button);
+                }
+                &:active{
+                    transform: scale(0.95);
+                }
+            }
+            &-demo{
+                display: flex;
+                color: var(--main);
+                background-color: var(--secondary_button-bg);
+                border-color: var(--main);
+                outline-color: var(--main);
+                align-items: center;
+                justify-content: center;
+                width: 225px;
+                @media screen and (max-width: 576px){
+                    width: 100%;
+                }
+                height: 50px;
+                gap: 10px;
+                border-radius: 10px;
+                transition: box-shadow 300ms, transform 100ms;
+
+                &:hover{
+                    box-shadow: var(--shadow_button);
+                }
+                &:active{
+                    transform: scale(0.95);
+                }
+                &-image{
+                    align-items: baseline;
+                }
+            }
+        }
+    }
+    &__wrap{
+        &-item-second{
+            text-align: end;
+            @media screen and (max-width: 1200px){
+                text-align: center;
+                margin-top: 20px;
+            }
+            img{
+                @media screen and (max-width: 768px){
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+/*Конец Промо*/

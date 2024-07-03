@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/*Свайпер*/
+.swiper {
+  width: 90%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/*Конец Свайпер*//*# sourceMappingURL=swiper.css.map */

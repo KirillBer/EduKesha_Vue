@@ -1,0 +1,81 @@
+@charset "UTF-8";
+:root {
+  /*Цвета*/
+  --main: #4047E2;
+  --secondary: #FCA206;
+  --light: #eaeaea;
+  --dark: #1D1A27;
+  --gray: #8F99AC;
+  --danger: #EB5757;
+  --warning: #fffa00;
+  --success: #00AF81;
+  --color-title: #3F3A51;
+  --lilac: #DFE1FF;
+  --primary_button-text: #F9F9F9;
+  --primary_button-bg: var(--main);
+  --secondary_button-text: var(--color-title);
+  --secondary_button-bg: #F9F9F9;
+  --bg_primary: var(--lilac);
+  --bg_secondary: #FFE1AD;
+  /*Оттенки*/
+  /*
+  --shade_1: var(--main);
+  --shade_2: #6B64FF;
+  --shade_3: #9283FF;
+  --shade_4: #B7A3FF;
+  --shade_5: #DDC4FF;
+  */
+  /*Тени*/
+  --shadow_primary: 0 10px 50px rgba(64, 71, 226, 0.2);
+  --shadow_button: 0 10px 50px rgba(5, 6, 22, 0.25);
+  --shadow_secondary: 0 10px 50px rgba(252, 162, 6, 0.2);
+  /*Размеры текста*/
+  --title_super: 42px;
+  --title_medium: 32px;
+  --title_standard: 20px;
+  --text_main: 18px;
+  --text_small: 16px;
+  --title_super-mobile: 27px;
+  --title_medium-mobile: 20px;
+  --title_standard-mobile: 16px;
+  --text_main-mobile: 16px;
+  --text_small-mobile: 14px;
+  /*Шрифты текста*/
+  --font_bold: "Rubik", bold;
+  --font_regular: "Rubik", regular;
+  --weight_titles: 700;
+  --weight_text: 400;
+  /*Точки изменения экрана*/
+  --xxl: 1400px;
+  --xl: 1200px;
+  --lg: 992px;
+  --md: 768px;
+  --sm: 576px;
+}
+
+/*Сброс стилей / глобальные стили*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, a {
+  color: var(--color-title);
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/*Конец Сброс стилей / глобальные стили*//*# sourceMappingURL=base.css.map */

@@ -1,0 +1,73 @@
+/*Возможности*/
+.possibilities{
+    margin-top: 80px; 
+    /*
+    .the-swiper{
+        @media screen and (min-width: 992px){
+            display: none;
+        }
+    }
+    .not-the-swiper{
+        @media screen and (max-width: 992px){
+            display: none;
+        }
+    }
+    */
+    &__wrap h4{
+        text-align: center;
+        margin-bottom: 45px;
+        @media screen and (max-width: 768px){
+            margin-bottom: 20px;
+        }
+        font-weight: var(--weight_titles);
+        font-family: var(--font_bold);
+        font-size: var(--title_medium);
+        @media screen and (max-width: 576px){
+            font-size: var(--title_super-mobile);
+        }
+    }
+    &__cards{
+        &-card{
+            border-radius: 20px;
+            margin-bottom: 40px;
+            height: 320px;
+            @media screen and (min-width: 1200px){
+                width: 300px;
+            }
+            @media screen and (max-width: 992px){
+                width: 290px;
+            }
+            @media screen and (max-width: 768px){
+                width: 218px;
+            }
+            @media screen and (max-width: 576px){
+                width: 100%;
+            }
+        }
+        img{
+            margin-top: 48px;
+        }
+        h5{
+            margin-top: 26px;
+            font-weight: var(--weight_titles);
+            font-family: var(--font_bold);
+            font-size: var(--title_standard);
+        }
+        p{
+            margin-top: 18px;
+            font-weight: var(--weight_text);
+            font-family: var(--font_regular);
+            font-size: var(--text_main);
+        }
+        &-first, &-third{
+            background-color: var(--bg_primary);
+            box-shadow: var(--shadow_primary);
+        }
+        &-second, &-fourth{
+            background-color: var(--bg_secondary);
+            box-shadow: var(--shadow_secondary);
+        }
+    }
+}
+
+/*Конец Возможности*/

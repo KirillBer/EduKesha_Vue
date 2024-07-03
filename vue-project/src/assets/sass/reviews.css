@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*Отзыв*/
+.reviews {
+  margin-top: 80px;
+  background-color: var(--lilac);
+}
+.reviews__wrap {
+  padding-top: 80px;
+  padding-bottom: 72px;
+}
+.reviews__info {
+  margin-top: 24px;
+}
+@media screen and (max-width: 1200px) {
+  .reviews__info {
+    text-align: center;
+  }
+}
+.reviews__info h1 {
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_medium);
+}
+@media screen and (max-width: 576px) {
+  .reviews__info h1 {
+    font-size: var(--title_super-mobile);
+    text-align: left;
+  }
+}
+.reviews__info p {
+  margin-top: 14px;
+  margin-bottom: 20px;
+  color: var(--gray);
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_small);
+}
+@media screen and (max-width: 576px) {
+  .reviews__info p {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .reviews__info p {
+    max-width: 325px;
+  }
+}
+.reviews__info button {
+  background-color: var(--main);
+  border: 0px;
+  color: var(--light);
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_small);
+  transition: box-shadow 300ms, transform 100ms;
+}
+@media screen and (max-width: 576px) {
+  .reviews__info button {
+    width: 100%;
+  }
+}
+.reviews__info button:hover {
+  box-shadow: var(--shadow_button);
+}
+.reviews__info button:active {
+  transform: scale(0.95);
+}
+.reviews__card {
+  width: 629px;
+  height: 100%;
+  padding-bottom: 25px;
+  border-radius: 35px;
+  background-color: white;
+}
+@media screen and (max-width: 992px) {
+  .reviews__card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .reviews__card {
+    margin-top: 30px;
+  }
+}
+.reviews__card h2 {
+  color: black;
+  margin: 30px 50px 18px 30px;
+  line-height: 30px;
+  font-weight: var(--weight_text);
+  font-family: var(--font_bold);
+  font-size: var(--title_standard);
+}
+@media screen and (max-width: 576px) {
+  .reviews__card h2 {
+    font-size: var(--text_main-mobile);
+    margin: 25px 0px 16px;
+    line-height: 24px;
+  }
+}
+.reviews__card-teacher {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 576px) {
+  .reviews__card-teacher {
+    margin-left: 12px;
+  }
+}
+.reviews__card-teacher h3 {
+  color: black;
+}
+.reviews__card-teacher h3, .reviews__card-teacher p {
+  font-weight: var(--weight_text);
+  font-family: var(--font_bold);
+  font-size: var(--text_small);
+}
+.reviews__card-teacher p {
+  color: var(--gray);
+}
+
+/*Конец Отзыв*//*# sourceMappingURL=reviews.css.map */

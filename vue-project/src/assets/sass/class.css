@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/*Класс*/
+.class {
+  padding-top: 73px;
+  padding-bottom: 80px;
+  background-color: var(--lilac);
+}
+.class__wrap img {
+  margin-top: 7px;
+  height: 241px;
+}
+@media screen and (max-width: 768px) {
+  .class__wrap img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.class__wrap-item-second {
+  text-align: end;
+}
+@media screen and (max-width: 1200px) {
+  .class__wrap-item-second {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.class__info {
+  max-width: 570px;
+}
+@media screen and (max-width: 1200px) {
+  .class__info {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+.class__info-title {
+  font-family: var(--font_bold);
+  font-weight: var(--weight_titles);
+  font-size: var(--title_medium);
+  margin-bottom: 28px;
+}
+@media screen and (max-width: 576px) {
+  .class__info-title {
+    font-size: var(--title_super-mobile);
+    text-align: left;
+  }
+}
+.class__info-description {
+  font-family: var(--font_regular);
+  font-weight: var(--weight_text);
+  font-size: var(--text_main);
+}
+@media screen and (max-width: 576px) {
+  .class__info-description {
+    font-size: var(--text_main-mobile);
+    text-align: left;
+  }
+}
+.class__info-description-second {
+  margin-top: 18px;
+  margin-bottom: 9px;
+}
+
+/*Конец Класс*//*# sourceMappingURL=class.css.map */

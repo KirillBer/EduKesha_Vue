@@ -1,0 +1,40 @@
+/*Футер*/
+.footer{
+    margin: 65px 0 50px;
+
+    &__wrap hr{
+        margin: 39px 0;
+        color: var(--light);
+        opacity: unset; /*Чтобы bootstrap не перебивал стиль*/
+    }
+
+    &__logos, &__info{
+        color: var(--gray);
+        font-weight: var(--weight_text);
+        font-family: var(--font_regular);
+        font-size: var(--text_small);
+        @media screen and (max-width: 768px){
+            display: grid;
+            gap: 33px;
+            justify-content: center;
+            text-align: center;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__logos-first{
+        margin-top: 17px;
+        width: 195px;
+        height: 50px;
+    }
+    &__logos-second{
+        padding-left: 27px;
+    }
+
+    &__info p{
+        width: 278px;
+    }
+}
+/*Конец Футер*/

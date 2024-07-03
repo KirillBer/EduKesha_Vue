@@ -1,0 +1,54 @@
+@charset "UTF-8";
+/*История*/
+.history {
+  margin-top: 80px;
+}
+@media screen and (max-width: 1200px) {
+  .history {
+    text-align: center;
+    row-gap: 50px;
+  }
+}
+.history__image {
+  height: 338px;
+  box-shadow: var(--shadow_primary);
+}
+@media screen and (max-width: 1200px) {
+  .history__image {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .history__image {
+    width: 100%;
+    height: 100%;
+  }
+}
+.history__info-title {
+  margin-bottom: 30px;
+  font-weight: var(--weight_titles);
+  font-family: var(--font_bold);
+  font-size: var(--title_medium);
+}
+@media screen and (max-width: 576px) {
+  .history__info-title {
+    font-size: var(--title_super-mobile);
+    text-align: left;
+  }
+}
+.history__info-description {
+  font-weight: var(--weight_text);
+  font-family: var(--font_regular);
+  font-size: var(--text_main);
+}
+@media screen and (max-width: 576px) {
+  .history__info-description {
+    font-size: var(--text_main-mobile);
+    text-align: left;
+  }
+}
+.history__info-description-first {
+  margin-bottom: 20px;
+}
+
+/*Конец История*//*# sourceMappingURL=history.css.map */

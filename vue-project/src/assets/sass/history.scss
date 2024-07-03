@@ -1,0 +1,47 @@
+/*История*/
+.history{
+    margin-top: 80px;
+    @media screen and (max-width: 1200px){
+        text-align: center;
+        row-gap: 50px;
+    }
+
+    &__image{
+        height: 338px;
+        box-shadow: var(--shadow_primary);
+        @media screen and (max-width: 1200px){
+            margin-top: 20px;
+        }
+        @media screen and (max-width: 768px){
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__info{
+        &-title{
+            margin-bottom: 30px;
+            font-weight: var(--weight_titles);
+            font-family: var(--font_bold);
+            font-size: var(--title_medium);
+            @media screen and (max-width: 576px){
+                font-size: var(--title_super-mobile);
+                text-align: left;
+            }
+        }
+
+        &-description{
+            font-weight: var(--weight_text);
+            font-family: var(--font_regular);
+            font-size: var(--text_main);
+            @media screen and (max-width: 576px){
+                font-size: var(--text_main-mobile);
+                text-align: left;
+            }
+            &-first{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+/*Конец История*/
